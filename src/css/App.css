@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300&display=swap');
+
+body {
+  display: flex;
+  justify-content: space-around;
+  color: white;
+  background-color: black;
+}
+
+h1 {
+  font-size: 35px;
+}
+
+.headerSection {
+  text-align: center;
+}
+
+.faqSection {
+  width: 40vw;
+}
+
+.faqProperties {
+  padding-left: 20px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.faqQuestions {
+  height: 6vh;
+  color: white;
+  background-color: #313131;
+  font-size: 16px;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.trialSection {
+  width: 13vw;
+}
+
+.trialProperties {
+  height: 100%;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.trialPeriod {
+  margin-top: 50px;
+  
+  height: 6vh;
+  color: white;
+  background-color: red;
+  font-size: 16px;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
